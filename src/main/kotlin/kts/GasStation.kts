@@ -1,7 +1,7 @@
 @file:Suppress("PropertyName", "PrivatePropertyName")
 //@file:DependsOn("com.github.holgerbrandl:kalasim:0.7.90")
 
-package org.kalasim.scratch
+package kts
 
 import org.kalasim.*
 import org.koin.core.component.inject
@@ -100,6 +100,8 @@ class GasStation : Environment(true) {
         }
     }
 }
+
+
 val gasStation = GasStation()
 
 gasStation.run(SIM_TIME)
